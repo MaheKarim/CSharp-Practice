@@ -11,7 +11,9 @@
         last_name = Console.ReadLine();
 
         Console.Write("Here Your First Name : " + first_name + " And Your Last Name : " + last_name);
-        // Console.ReadKey();
+        // Another Way
+        Console.Write($"\nYour Name is {first_name} {last_name} ");
+        // Console.ReadKey(); 
 
         } // Main Method End
 
